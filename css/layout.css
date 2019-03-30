@@ -1,3 +1,4 @@
+/* Header */
 .main-header {
   display: flex;
   padding: 30px 50px;
@@ -11,4 +12,37 @@
   justify-content: space-between;
   align-items: center;
   flex: 1;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  height: 620px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__content {
+  width: 70%;
+  max-width: 1140px;
+  margin-bottom: 20px;
+}
+
+.hero__text {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 35px;
+}
+
+.hero__title {
+  margin: 10px 0;
+}
+
+.hero__description {
+  margin-bottom: 30px;
+}
+
+.hero__cta {
+  display: inline-block;
 }
