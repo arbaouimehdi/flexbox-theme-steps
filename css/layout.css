@@ -46,3 +46,31 @@
 .hero__cta {
   display: inline-block;
 }
+
+/* Products List */
+
+.collection {
+  margin: 0 50px;
+}
+
+.collection__products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection__product {
+  flex-basis: 30%;
+}
+
+.product__image {
+  width: 100%;
+}
+
+.product__title {
+  margin: 10px 0;
+}
+
+.product__title,
+.product__price {
+  margin-left: 10px;
+}

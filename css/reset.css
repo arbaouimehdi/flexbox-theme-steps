@@ -49,6 +49,10 @@
   text-align: center;
 }
 
+.section__heading {
+  margin-bottom: 80px;
+}
+
 .section__heading h2 {
   font-size: 30px;
 }
@@ -56,6 +60,10 @@
 .section__heading p {
   opacity: 0.6;
   font-size: 20px;
+}
+
+.section {
+  margin-bottom: 80px;
 }
 
 /* Products */
